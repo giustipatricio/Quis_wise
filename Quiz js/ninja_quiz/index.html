@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Quiz</h2>
+    </div>
+  </div>
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>you are <span class="text-primary display-4 p-3">0%</span> wise </p>
+    </div>
+  </div>
+
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="text-white my-5">On with the questions...</h2>
+      <form class="quiz-form text-light" >
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Gollum is?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q1" name="p1" value="A" checked>
+            <label class="form-check-label">A tender elf with a beautiful smile</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q1" name="p1" value="B" >
+            <label class="form-check-label">a slimy, skinny creature living in the middle of an underground lake underneath the Misty Mountains</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Gandalf it's known as ?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q2" name="p2" value="A" checked>
+            <label class="form-check-label">the king of the human's</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q2" name="p2" value="B" >
+            <label class="form-check-label">Mithrandir, a Sindarin phrase meaning Grey Pilgrim or Wanderer</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. the inscription at the "one ring" sais ?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q3" name="p3" value="A" checked>
+            <label class="form-check-label">A ring to free them all, a ring to find them, A ring to attract them all and, in the light, focus them.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q3" name="p3" value="B" >
+            <label class="form-check-label">One ring to rule them all, one ring to find them, One ring to bring them all and in the darkness bind them.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. The White Tree is the symbol of wich city?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q4" name="p4" value="A" checked>
+            <label class="form-check-label">Mordor</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" id="q4" name="p4" value="B" >
+            <label class="form-check-label">Gondor</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light">
+        </div>
+      </form>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
